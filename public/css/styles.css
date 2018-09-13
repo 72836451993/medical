@@ -1,0 +1,134 @@
+body#LoginForm,body.home{ background-image:url("../background_img/blur-26347-27038-hd-wallpapers.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+}
+.main-div {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    min-width: 269px;
+    padding: 6%;
+}
+
+.login-form .form-group {
+    margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+    color: #777777;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+    background: #f0ad4e none repeat scroll 0 0;
+    border-color: #f0ad4e;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+.forgot {
+    text-align: left; margin-bottom:30px;
+}
+.botto-text {
+    color: #ffffff;
+    font-size: 14px;
+    margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+    background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+#add_medicine{
+    margin: auto;
+    width: 50%;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}
+.list{
+    margin: auto;
+}
+.prod_img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+}
+li{
+    list-style-type: none;
+    color:#503951;
+}
+ul{
+    padding: 0;
+}
+.product_name{
+    /*text-align: center;*/
+    font-size: 27px;
+    font-weight: 500;
+    color: #503951;
+}
+.login-div{
+    width: 95%;
+    margin: auto;
+}
+.login-div > form {
+    text-align: right;
+    margin-top:1%;
+}
+#log_out{
+    padding-top: 1%;
+}
+.form-control.error{
+    border: 1px solid #d80000
+}
+@media screen and (max-width: 768px){
+    .prod_img{
+        height:340px;
+    }
+}
+@media screen and (max-width: 480px){
+    .prod_img {
+        height: 273px;
+    }
+}
+@media screen and (max-width: 375px){
+    .prod_img {
+        height: 168px;
+    }
+}
+
+
